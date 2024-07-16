@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.svg" alt="AluraGeek Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#">AluraGeek</a></li>
+               
+    
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="products">
+            <h1>Meus Filmes</h1>
+            <div class="product-list">
+                <!-- Cards de produtos serão adicionados aqui -->
+                 
+            <p class="no-products-message"></p>
+        </section>
+        <section class="add-product">
+            <h1>Adicionar Filme</h1>
+            <form id="product-form">
+                <label for="product-name">Nome do Filme:</label>
+                <input type="text" id="product-name" name="product-name" required>
+                <label for="product-price">Preço:</label>
+                <input type="number" id="product-price" name="product-price" required>
+                <label for="product-image">Imagem:</label>
+                <input type="url" id="product-image" name="product-image" required>
+                <div class="form-buttons">
+                    <button type="submit">Guardar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <img src="img/logo.svg" alt="AluraGeek Logo" class="logo">
+        <p>Desenvolvido por Emylly Guimarães</p>
+        <p>&copy; 2024 Desenvolvido para AluraGeek</p>
+    </footer>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
